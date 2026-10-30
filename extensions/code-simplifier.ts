@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
-import type { ExtensionAPI } from "@oh-my-pi/pi-coding-agent/extensibility/extensions/types";
+import type { ExtensionAPI } from "tau/extensibility/extensions/types";
 
 // Track files modified during the current agent run and across the session
 const currentRunModifications = new Set<string>();

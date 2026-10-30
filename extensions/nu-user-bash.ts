@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import { basename } from "node:path";
-import type { ExtensionAPI } from "@oh-my-pi/pi-coding-agent/extensibility/extensions/types";
+import type { ExtensionAPI } from "tau/extensibility/extensions/types";
 
 // shellQuote escapes for the outer shell (bash), which receives the quoted
 // string, strips the outer single quotes, and passes the literal command to
