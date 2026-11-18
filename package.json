@@ -1,5 +1,5 @@
 {
-  "name": "pi-skills",
+  "name": "@geode/pi-skills",
   "version": "1.0.0",
   "description": "Reusable Oh My Pi skills, extension commands, and theme source files",
   "license": "MIT",
